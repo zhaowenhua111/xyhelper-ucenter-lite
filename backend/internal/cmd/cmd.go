@@ -30,6 +30,8 @@ var (
 					app.LoginController.OauthToken, //子应用登录Code换取token(接口地址：/oauth/token)
 
 					app.LoginController.Login, //login页面登录请求（接口地址：/login）
+
+					app.TestController.TestThirdLogin, //三方登录测试（接口地址：/test）
 				)
 			})
 
