@@ -6,8 +6,8 @@ import (
 )
 
 var (
-	EmailSuffix  = "outlook.com" // 默认邮箱后缀
-	JwtSecretKey = ""            // 子应用下发token秘钥
+	EmailSuffix  = "outlook.com"              // 默认邮箱后缀
+	JwtSecretKey = "xyhelper-auth-api-secret" // 子应用下发token秘钥
 
 	Redis = g.Redis("cool")
 )

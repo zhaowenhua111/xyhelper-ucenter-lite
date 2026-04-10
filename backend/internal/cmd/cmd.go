@@ -31,7 +31,6 @@ var (
 
 					app.LoginController.Login, //login页面登录请求（接口地址：/login）
 
-					app.TestController.TestThirdLogin, //三方登录测试（接口地址：/test）
 				)
 			})
 
